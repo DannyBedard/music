@@ -558,6 +558,13 @@ h2, .h2 {
   margin: 3rem auto 2rem auto;
 }
 
+/*
+* ADD ON!
+*/
+a {
+  overflow: hidden;
+}
+
 /* Media Queries */
 @media screen and (max-width: 897px) {
   .gallery-item {

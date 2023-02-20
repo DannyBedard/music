@@ -1,29 +1,28 @@
 {   
     "author": {
-        "firstName": "John",
-        "lastName": "Smith",
-        "email": "foobar@gmail.com",
-        "twitterHandle": "tannerdolby",
-        "about": "Freelance photographer interested in film and cinematography"
+        "firstName": "Danny",
+        "lastName": "Bédard",
+        "email": "dannybedard1@gmail.com",
+        "about": "A versatile professionnal pianist"
     },
     "socials": {
-        "twitter": "https://twitter.com/tannerdolby",
-        "linkedin": "https://linkedin.com/in/tanner-dolby",
-        "dribbble": "https://dribbble.com/tannerdolby",
-        "github": "https://github.com/tannerdolby"
+        "Facebook": "https://www.facebook.com/danny.bedard1/",
+        "Instagram": "https://www.instagram.com/danny.bedard/",
+        "TikTok": "https://www.tiktok.com/@tarzankeyz",
+        "Linkedin": "https://www.linkedin.com/in/danny-b%C3%A9dard-75444188/"
     },
     "pageMetadata": {
         "home": {
-            "content": "A photo gallery template with stock photos provided from Pexels. Add or remove images from the grid and customize your own image gallery!"
+            "content": "Welcome to my website"
         },
-        "gallery": {
-            "content": "A collection of images from John Smith's gallery."
+        "music": {
+            "content": "A collection of music done by Danny"
         },
-        "featured": {
-            "content": "from John Smith's gallery."
+        "contact": {
+            "content": "Contect Danny"
         },
         "about": {
-            "content": "A page about John Smith, and photography. This template is currently the default version so add your own about me page info here."
+            "content": "A page about Danny"
         }
 
     }
