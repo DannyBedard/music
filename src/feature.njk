@@ -1,10 +1,10 @@
 ---
 pagination:
-    data: gallery
+    data: posts
     size: 1
     alias: image
 permalink: "/gallery/{{ image.title | slug }}/"
-url: https://eleventy-gallery.netlify.app
+url: https://dannybedard.netlify.app
 cardType: summary_large_image
 ---
 <!DOCTYPE html>
@@ -37,6 +37,9 @@ cardType: summary_large_image
     <body>
         <a href="#main" class="skip-link">Skip to main content</a>
         {% include "partials/nav.njk" %}
+        <div class="image-description">
+            <h1 class="h2">{{ image.title }}</h1>
+        </div>
         <main id="main" class="main-container">
             <div class="featured-img">
                 <div class="image-container">
@@ -52,8 +55,10 @@ cardType: summary_large_image
                         height=768
                     %}
                     <div class="image-description">
-                        <h1 class="h2">{{ image.title }}</h1>
-                        <p>{{ image.credit }} on <a class="credit" href="{{ image.linkToAuthor }}">Pexels</a></p>
+                        <h5>{{ image.artist }} - {{ image.date}} - {{ image.place }}</h5>
+                        <p>Préparez-vous à une soirée de musique et de divertissement inoubliable! Nous sommes ravis de présenter notre prochain événement musical mettant en vedette {{ image.artist }}</p>
+                        <p>Rejoignez-nous le {{ image.date }} au {{ image.place }} vous trouverez votre bonheur lors de cet événement</p>
+                        <p>{{ image.description }}</p>
                     </div>
                     <div class="prev-next">
                         {% if pagination.href.previous %}
